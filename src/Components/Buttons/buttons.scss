@@ -1,0 +1,46 @@
+
+.buttons1 {
+  display: block;
+  margin: auto;
+  justify-content: center;
+
+  .buttons2 {
+    button {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+      display: block;
+      align-items: center;
+      margin: auto;
+      justify-content: center;
+      width: 60vw;
+      height: 3rem;
+      margin-bottom: 10px;
+      background-color: rgba(234, 236, 240, 1);
+      border: 1px solid transparent;
+      color: black;
+      border-radius: 10px;
+      a {
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        a:link,
+        a:visited,
+        a:active {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .socials {
+    margin-top: 1rem;
+    justify-content: center;
+    // width: 5rem;
+    align-items: center;
+    display: flex;
+  }
+}

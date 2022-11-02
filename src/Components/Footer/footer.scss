@@ -1,0 +1,33 @@
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  position: relative;
+  left: 0%;
+  bottom: -3vw;
+  width: 80vw;
+  border-top: 1px solid rgba(234, 236, 240, 1);
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer {
+    display: block;
+    align-items: left;
+    margin: auto;
+    justify-content: flex-start;
+    text-align: left;
+    p {
+        text-align: left;
+      }
+  }
+}
