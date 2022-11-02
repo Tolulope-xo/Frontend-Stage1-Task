@@ -21,6 +21,7 @@
       margin-bottom: 10px;
       background-color: rgba(234, 236, 240, 1);
       border: 1px solid transparent;
+      cursor: pointer;
       color: black;
       border-radius: 10px;
       a {
@@ -39,7 +40,6 @@
   .socials {
     margin-top: 1rem;
     justify-content: center;
-    // width: 5rem;
     align-items: center;
     display: flex;
   }
