@@ -8,7 +8,7 @@ const buttons = () => {
     <div className="buttons1">
       <div className="buttons2">
         <button>
-          <a id="Ayo__tomiwa" href="#">
+          <a id="Ayo__tomiwa" href="/#">
             Twitter Link
           </a>
         </button>
