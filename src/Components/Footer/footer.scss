@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    width: 100%;
+    width: 90%;
     border-top: 1px solid rgba(234, 236, 240, 1);
     p {
       font-family: "Inter", sans-serif;
@@ -39,11 +39,11 @@
   }
 }
 
-@media (min-width: 560px) and (max-width: 1440px) {
+@media (min-width: 560px) and (max-width: 1240px) {
     .footer1 {
-        position: relative;
+        position: absolute;
         left: 0%;
-        bottom: -5rem;
-        width: 100%;
+        bottom: -10rem;
+       
     }
 }
