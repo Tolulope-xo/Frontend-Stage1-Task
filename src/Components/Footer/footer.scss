@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    width: 80%;
+    width: 100%;
     border-top: 1px solid rgba(234, 236, 240, 1);
     p {
       font-family: "Inter", sans-serif;
@@ -37,4 +37,13 @@
       }
     }
   }
+}
+
+@media (min-width: 560px) and (max-width: 1440px) {
+    .footer1 {
+        position: relative;
+        left: 0%;
+        bottom: -5rem;
+        width: 100%;
+    }
 }
