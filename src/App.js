@@ -1,7 +1,7 @@
 import "./App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Pages/Home/home";
-import Contact from "./Components/Pages/Contact/contact";
+import Home from "./Pages/Home/home";
+import Contact from "./Pages/Contact/contact";
 import Footer from "./Components/Footer/footer";
 function App() {
   return (

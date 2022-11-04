@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.scss'
-import Form from '../../Form/form'
-import Button from '../../Button/button'
+import Form from '../../Components/Form/form'
+import Button from '../../Components/Button/button'
 const contact = () => {
   return (
     <div className='contact_page'>

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../Header/header";
-import Buttons from "../../Buttons/buttons";
+import Header from "../../Components/Header/header";
+import Buttons from "../../Components/Buttons/buttons";
 import './home.scss'
 const home = () => {
   return (

@@ -36,18 +36,12 @@ const buttons = () => {
           </a>
         </button>
         <button>
-          <a
-            id="book__design"
-            href="https://books.zuri.team/design-rules"
-          >
+          <a id="book__design" href="https://books.zuri.team/design-rules">
             Design Books
           </a>
         </button>
         <button>
-          <a
-            id="contact"
-            href="/contact"
-          >
+          <a id="contact" href="/contact">
             Contact Me
           </a>
         </button>
