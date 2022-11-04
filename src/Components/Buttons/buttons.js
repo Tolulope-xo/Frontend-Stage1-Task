@@ -43,6 +43,14 @@ const buttons = () => {
             Design Books
           </a>
         </button>
+        <button>
+          <a
+            id="contact"
+            href="/contact"
+          >
+            Contact Me
+          </a>
+        </button>
       </div>
       <div className="socials">
         <img id="Tolulope-xo" src={slack} alt="slack" />
