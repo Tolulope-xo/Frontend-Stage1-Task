@@ -2,6 +2,7 @@ import React from "react";
 import slack from "../assets/slack.png";
 import github from "../assets/Icon.png";
 import "../Buttons/buttons.scss";
+import { Link } from "react-router-dom";
 
 const buttons = () => {
   return (
@@ -41,9 +42,7 @@ const buttons = () => {
           </a>
         </button>
         <button>
-          <a id="contact" href="/contact">
-            Contact Me
-          </a>
+            <Link to="/contact" id="contact">Contact Me</Link>
         </button>
       </div>
       <div className="socials">
