@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.scss'
 import Form from '../../Components/Form/form'
 import Button from '../../Components/Button/button'
+import Footer from '../../Components/Footer/footer'
 const contact = () => {
   return (
     <div className='contact_page'>
@@ -9,6 +10,8 @@ const contact = () => {
         <p>Hi there, contact me to ask me about anything you have in mind.</p>
         <Form/>
         <Button/>
+        <Footer/>
+
     </div>
   )
 }
